@@ -1,0 +1,41 @@
+
+
+
+.mojefoto{
+    width: 320px;
+    border-radius: 50%;
+    float:left;
+    margin-right:70px;
+    margin-bottom:70px;
+    
+
+    
+}
+
+.nadpis{
+    text-align: left;
+    color: grey;
+    font-size: 60px;
+    padding-left: 380px;
+}
+
+.odstavec{
+    color:grey;
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: left;
+    padding-top: 60px;
+    
+
+}
+
+body{
+    font-family: 'Dancing Script', cursive;
+    line-height: 1.5;
+    padding: 50px;
+    background-color: #e8dbd3;
+    margin: 0;
+    overflow: auto;
+
+}
+
