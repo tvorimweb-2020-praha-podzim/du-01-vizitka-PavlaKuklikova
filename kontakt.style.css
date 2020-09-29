@@ -1,0 +1,57 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    line-height: 1.5;
+    padding: 0px;
+    background-color: #e8dbd3;
+    margin: 0;
+    overflow: auto;
+    font-size: 1.5rem;
+    color: grey;
+
+}
+
+
+.menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color:grey;
+    
+
+}
+
+.menu li {
+
+    display:inline-block;
+    font-size: 2rem;
+    background-color: rgb(214, 132, 132);
+    border-style:solid;
+    border-color: ivory;
+    border-radius: 20%;
+    
+    
+}
+
+
+
+.menu a{
+display:inline-block;
+color:white;
+text-decoration: none;
+padding: 20px 30px;
+
+}
+
+.menu a:hover {
+    background-color: #756158;
+    border-radius: 20%;
+    }
+
+
+
+section{
+background-color: white;
+padding: 50px;
+text-align: center;
+
+}

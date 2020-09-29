@@ -15,42 +15,55 @@ Vizitku ostyluj pomocí CSS:
 - Další vlastnosti dle vlastního uvážení
 
 Tip: Webdesign In 4 Minutes https://jgthms.com/web-design-in-4-minutes/
+
+
 -->
 
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pavla Kuklíková</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  
+
+    <!--navigace - menu-->
+    <ul class="menu">
+        <li><a href="#omne">O mně</a> </li>
+        <li><a href="kontakt.html">Kontakt</a> </li>
+    </ul>
+
+    <!--původní <nav class="kontakt" id="Kontakt"> </nav>
+    <a href="kontakt.html">Kontakt </a>
+-->
+
+    <!--hlavička nadpis-->
 
 
- <!--hlavička nadpis-->   
+    <h1 class="nadpis">
+
+        Pavla Kuklíková
+    </h1>
 
 
- <h1 class="nadpis">
-     
-    Pavla Kuklíková
-</h1>
 
- 
+    <!--moje foto a odstavec-->
+    <section class="omne" id="omne">
 
-<!--moje foto a odstavec-->
+        <img src="mojefoto.png" alt="Pavla Kuklíková" class="mojefoto">
 
+        <p class="odstavec">Ahoj, <br>jmenuji se <strong> Pavla</strong>.<br> Pracuji v oblasti digitálního marketingu.<br> Ve volném čase ráda sportuji - lezu po ferratách či umělé stěně, ráda zajdu <br>na TRX, heat nebo si zaplavat. Miluji cestování, objevování nových míst<br> a zkoušení nových věcí, například kódování. Více se o mně dozvíte na mém <br> <a href="https://www.facebook.com/public/Pavla-Kukl%C3%ADkov%C3%A1" target=_blank>facebookovém profilu.</a> a nebo mi napiště na <a href="mailto:kuklikova@seznam.cz">kuklikova@seznam.cz</a></p>
 
- <img src="mojefoto.png" alt="Pavla Kuklíková" class="mojefoto">
-
- <p class="odstavec">Ahoj, <br>jmenuji se <strong> Pavla</strong>.<br> Pracuji v oblasti digitálního marketingu.<br> Ve volném čase ráda sportuji - lezu po ferratách či umělé stěně, ráda zajdu <br>na TRX, heat nebo si zaplavat. Miluji cestování, objevování nových míst<br> a zkoušení nových věcí, například kódování. Více se o mně dozvíte na mém <br> <a href="https://www.facebook.com/public/Pavla-Kukl%C3%ADkov%C3%A1"target=_blank">facebookovém profilu.</a> a nebo mi napiště na <a href="mailto:kuklikova@seznam.cz">kuklikova@seznam.cz</a></p> 
-
-
+    </section>
 
 
 
 </body>
+
 </html>
